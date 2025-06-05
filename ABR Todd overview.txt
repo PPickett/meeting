@@ -1,0 +1,341 @@
+
+ABR Todd overview
+ABR meeting with todd and laurie 
+So just as kind of this sort of stage setting, I don't necessarily know um that delivery has been cause for late season shut off um in that cast in our client, look at that, look at it, umneed to shift from seeing traditional mail deliveries. UmWith that, we have variation in, which is we also don't have a lot of control, though.
+
+We have seen that 90% of vendors have websites. umI didn't include it here in this particular slide, but the implication is given that we had our partner attacking that from a next step perspective, is probably a better solution. And going after problems that we're going to continue to have in email, sure, and that it creates ah a model for us to develop internal capabilities for all our part of process.
+
+And that I sort of laid things out and kind of a phased approach based on our previous conversation. Some sort of pilot I didn't know about. I just i'm making time lines up here. Yeah, but like something through the end of the year over the next 6 months, if that's the the current timeline within sort of an initial scale up, starting in 26, where we make those transitions with the goal of a launch and q three to transition everything.
+
+yeah um soThose are the the pieces. umI sort of, as a summary for what we've talked through, uma sort of build out the summarize, the business functional requirements into three sections, credential management, being the first piece that the general agreement was that we really need to understand how things are coming in. umAndrea actually has a really nice, I think, solid process that she started with.
+
+The bpo so but there is sort of client information, site reference information, credential client credentials, goes through that process and then comes out as updated updates to the client. Also, the client list is the account list as well as potentially the credentials. umSo we we need to kind of have an improvement in that process as we find that those test cases that she's working through right now.
+
+And then the verification process. So there is, I think, a possibility for automation of some of that steps, if not all of those pieces. umAnd then the key component that we need is uh improvement for vcmm vendor, intelligence part of the vendor management component.
+
+There are certain things we've identified as being critical. I don't think it comes it doesn't come out as as very reasonable here. But there's 2 pieces. There's account level information. So we need to know that there are account level data elements.
+
+And then um and then we have a vendor level. And so we there's maybe an email that's associated with the account is cycle time. umTrying to fix other ones. umPotentially the billing format may change.
+
+I'm not sure i'm not just sort of the username, the password. If there's ah a block for an account level, andthere's one thing we identified as a need to know what the update was, that credential level information. And then there's broader account stuff or or vendor level things.
+
+Generally speaking, the url for the uniform across the vendor. if they have anIf they're using multifactor authentication, and thendo they do uh auto pay? E bill? Is there multiple accounts? Login, things like that.
+
+and soSo there's that piece and then there's the queuing system. soThose are queuing system is to once we have the credentials in place, manage it, as well as sort of potentially after we've moved implementation of the current pilot where where we're using peace. It may make sense that it actually get those to flow in attractive on an individual basis is the moment she's managing it by a client group.
+
+UmWe'd like to also be able to get a portal where clients can import individual cases or even both cases. And so that would flow into it. yeahNice one that you're talking to. This was the full shebang potential, not just the gathering and the story.
+
+soI think this this I think is an older this is an older artifact that I was thinking at, but um as i've got this summarized, okayso that's that's the credential piece. In terms of it, I feel like we need those in place. OkI have a slide I have a slide with it where I think they i'm not like it's my first stab at it, right?
+
+yeahAnd I just didn't know we thought it was a show. soYeah. We have no visibility today. So I think there is. yeahSo then the automated download, there's this community scheduler, automated access to account and identify new invoices, download inject the pdf sort of the bigger components of those pieces.
+
+umAgain, there's a connection between this into the queue management system, but the queue management system would be more about our managing of the information. andWe want to make sure we have a say, in that schedule of peace as well that the tech teams are building on the frequency and how we're creating that. yeah and soAnd then that is potentially then the question if we and I don't know if this ship is, if we've already made this choice or not, it seems like it makes sense to build.
+
+If we built used a third party that could be another opportunity to sort of we pushed into them and they they they push it back. uhBut again, it depends on what that really yeah where we decide. And then more broadly on the or after that is sort of, again, the exception man.
+
+So here's a list of the primary failure mode components. And I feel like there's a lot of overlap in those spaces with some of our current. So I think, as we stand up fully, there's a question of how to read pieces together.
+
+And so I think this is kind of where I sort of tried to put pilot scale up launch, potentially could fit. Um soLike when you talked about, you asked about the um the vendor database stuff, I feel like that is something that needs to happen during the pilot as we if it's sort of the work that andrew is right now doing right now that really identifies hey these are the business requirements is to be in place um as we get get those pieces in play. UmI feel like we had the I talked to matt, and he showed me the invoice downloader that he's working on and some of the agents in that piece.
+
+I don't know if we necessarily need right away for it to be fully integrated into our it throws it into a folder, like everybody else is throwing into a folder and then it runs through the bar coder type of situation once that's running effectively. UmBut then that might, as we scale up, we will want to map that space. And we have some other system about if there's a data failure or something that's scheduled in it, you knowit's extraordinary days or whatever it goes into that.
+
+So I think the the pilot piece over the next and I don't know that i'm not sure if 6 months is too long or not enough time. I mean I think it's oh there's so much to be figured out yet. yeahI think from a design perspective, I think 6 months sounds doable, but I don't know.
+
+you knowThere are pieces and parts of those pieces. But those old well you know as we start to be able to pilot some of those pieces, we'll have many pieces. And hopefully we would um be in a position to understand what our staffing needs would be.
+
+And so I think those are just sort of my stab in the dark as far as where it would be from a technology perspective. So in that line, we've got the ai pilot which has started, but I think really understanding what that needs to be and understanding that integration than the vcm and the vendor management database where we need elements from that perspective. umAnd then I think we would need to have all of that potentially there and then integrating those data points with the scheduler, umand then integrating the downloader to to our standard processes, and then getting that into the um the uh you know the workflow cue cues for credentials and for exceptions.
+
+um andThere might be some quick wins that we have during that scale up phase where we can do like simple automation agent pieces that we could add to our existing vendor services components. umOne thing that I when I was looking looking at a map that just could be a really strong one literally, if there's a button, send missing bill for an account, and you just say log in, and it just literally goes out to the web and pulls it up and logs in automatically. You don't have to do any cutting basing or anything.
+
+But that's a huge efficiency, I think, ofof that case, even before you start to think about, does it make sense to have it try to go pull the last invoice and show you what that is? Or is it a safe a case where you want to have somebody manually looking at it at that point in time? Or you know going opening up the website and going to the place verifying the account is there and then going to um the place on the website to update the address and stuff like that that's something that can be done automatically automatically.
+
+umThat could help fax often and early in their process, stuff like that like I think those sub elements of what's required just being able to pull on those. And at the moment, he was talking from a pricing perspective that in most cases, the work that he's doing is um and we need to be connected to him um to ui some sort, which I think is got some work with, umjust to be able to figure out how that those those interaction pieces are. But I think we're paying, we're paying people $20 an hour, some to look at something that it seems like there could be some value in that at that time.
+
+It makes, umbut I think mainly the key pieces will be in place during get in place during the scale up. And then we can continue to refine what kind of vendor intelligence do we need after that. But really have that transition process for arcadia in place and ramp of staff in form.
+
+So it's not, it's not as detailed as, I guess, what questions do you come here? This is a very very high level. We talked at great detail and several points. So I really press ahead on this. I'm wondering if we want to make a repurchase of the strategic initiatives meeting for this month.
+
+I just talked about abr yes because I have not called melissa in as far as this as well. So i'm a little hesitant in saying bs in here, just because I don't know where that's going to fall. To me, it's going to fall within this arcadia versus vendor services.
+
+Right? I think part of that is the whether it's in this current position or not, the current structure or not, this sort of like when we had in the current arcadia process, a failure to get bill retrieval, escalation to to missing bill. umBut I think that's too late in what we're trying to accomplish.
+
+So you talked about, we're learning the team that is being built, too. And maybe it's very purpose in people from other areas to do that work. yeahYeah? Because I mean arcadia has that intermediate., right?
+
+And there's some activity. It doesn't sound like, I guess it's just a question around that. So if we have a timeline that the scheduler goes out, we say 80% of all bills are retrieved within 5 days and so that predictive 5 days for those things that don't happen.
+
+What happens after after day five on top that that would air out then. And this team would then go after finding out what was the error, andwhat to do to fix it, because they have to be like, right? And we should know based off of the agents, potentially where the failure lies because of the way that he's separating things out.
+
+Right? But then separating some of the egos. yeahSo I guess what I was more proposing was we planted to have an internal discussion117 and then for the strategic conditions meeting present this to jim and martin, I guess, because I think we had one or his second hand on it from utilities perspective on that.
+
+Talk to jim at work reasons. YeahAnd dean has been part of these conversations so that probably made me sort of stuff. We have a conversation for them. Do I know it yeah yeah yeah pieces that she kind of?
+
+So for all the designs that we think we know what we want to do for those processes. yes yes yeahWe talked about it. Yeah soIt's probably worth when that maybe, yeah. May I focus more? Probably maybe keep everything higher level.
+
+Chill down, chills out on the pilot, no more better than we do with some of this other stuff. yeahA scale up plan may or may not change as we go through the funny. These are decisions that will. yeah yeah yeahSo maybe just start with a bigger picture like this.
+
+Would you share with me? And then we have a couple of extra slides to go through the pilot ok and if we know how many bp os we need, like resources we need, aabr management team. I want that. that that wasThat's a big thing.
+
+And I think like some assumptions to get. yeahAnd I think part of it is a question of,  and I think that's part of the, i'm not sure about from where that scale up is is if we're not going to try to engage with the current arcadia account list, umthen where is where do those accounts come from? Right now?
+
+And how many how many of them are since we're not having like a really? When i'm super active? UmIt's like implementation. It's like from new accounts, right? yeah wellI mean and we can take some arcadia, too.
+
+We can take some arcadia. wellWe could, but I mean I would love to see who we what we have in the museum. It's not arcadia, and could be the most immediate deputy, maybe pursue. andThat's not the left person as well.
+
+yeahSo I think we just need to just take a look at what we have that we're throwing. Okay? And you see what what's left. Let's see it, depending. But then also, I mean if we don't have credentials in the vcm it doesn't mean that we should.
+
+And we're gonna have to figure out how to go after things that we don't have in the vcm so there's value to work from scratch. And so the pilot team is doing this. Yeah, I mean I still believe there's a decent number of emails somewhere.
+
+YepThat we haven't added to the ecm it seems like there are three different buckets, existing clock, existing credentials that aren't with arcadia. UmAnd then we have things that are coming in from. And then there are potentially existing clients or theirs.
+
+Bc ms. There should exist. Well. Or maybe it's maybe it's vendors that we know. We don't know where it can get or something.
+
+because work much better with a was an editor behind me back in the day. UmSo just as kind of this sort of stage setting, I don't necessarily know um that delivery has been cause for late season shut off um in that cast in our client, look at that, look at it, umneed to shift from seeing traditional mail deliveries. UmWith that, we have variation in, which is we also don't have a lot of control, though.
+
+We have seen that 90% of vendors have websites. umI didn't include it here in this particular slide, but the implication is given that we had our partner attacking that from a next step perspective, is probably a better solution. And going after problems that we're going to continue to have in email, sure, and that it creates ah a model for us to develop internal capabilities for all our part of process.
+
+And that I sort of laid things out and kind of a phased approach based on our previous conversation. Some sort of pilot I didn't know about. I just i'm making time lines up here. Yeah, but like something through the end of the year over the next 6 months, if that's the the current timeline within sort of an initial scale up, starting in 26, where we make those transitions with the goal of a launch and q three to transition everything.
+
+yeah um soThose are the the pieces. umI sort of, as a summary for what we've talked through, uma sort of build out the summarize, the business functional requirements into three sections, credential management, being the first piece that the general agreement was that we really need to understand how things are coming in. umAndrea actually has a really nice, I think, solid process that she started with.
+
+The bpo so but there is sort of client information, site reference information, credential client credentials, goes through that process and then comes out as updated updates to the client. Also, the client list is the account list as well as potentially the credentials. umSo we we need to kind of have an improvement in that process as we find that those test cases that she's working through right now.
+
+And then the verification process. So there is, I think, a possibility for automation of some of that steps, if not all of those pieces. umAnd then the key component that we need is uh improvement for vcmm vendor, intelligence part of the vendor management component.
+
+There are certain things we've identified as being critical. I don't think it comes it doesn't come out as as very reasonable here. But there's 2 pieces. There's account level information. So we need to know that there are account level data elements.
+
+And then um and then we have a vendor level. And so we there's maybe an email that's associated with the account is cycle time. umTrying to fix other ones. umPotentially the billing format may change.
+
+I'm not sure i'm not just sort of the username, the password. If there's ah a block for an account level, andthere's one thing we identified as a need to know what the update was, that credential level information. And then there's broader account stuff or or vendor level things.
+
+Generally speaking, the url for the uniform across the vendor. if they have anIf they're using multifactor authentication, and thendo they do uh auto pay? E bill? Is there multiple accounts? Login, things like that.
+
+and soSo there's that piece and then there's the queuing system. soThose are queuing system is to once we have the credentials in place, manage it, as well as sort of potentially after we've moved implementation of the current pilot where where we're using peace. It may make sense that it actually get those to flow in attractive on an individual basis is the moment she's managing it by a client group.
+
+UmWe'd like to also be able to get a portal where clients can import individual cases or even both cases. And so that would flow into it. yeahNice one that you're talking to. This was the full shebang potential, not just the gathering and the story.
+
+soI think this this I think is an older this is an older artifact that I was thinking at, but um as i've got this summarized, okayso that's that's the credential piece. In terms of it, I feel like we need those in place. OkI have a slide I have a slide with it where I think they i'm not like it's my first stab at it, right?
+
+yeahAnd I just didn't know we thought it was a show. soYeah. We have no visibility today. So I think there is. yeahSo then the automated download, there's this community scheduler, automated access to account and identify new invoices, download inject the pdf sort of the bigger components of those pieces.
+
+umAgain, there's a connection between this into the queue management system, but the queue management system would be more about our managing of the information. andWe want to make sure we have a say, in that schedule of peace as well that the tech teams are building on the frequency and how we're creating that. yeah and soAnd then that is potentially then the question if we and I don't know if this ship is, if we've already made this choice or not, it seems like it makes sense to build.
+
+If we built used a third party that could be another opportunity to sort of we pushed into them and they they they push it back. uhBut again, it depends on what that really yeah where we decide. And then more broadly on the or after that is sort of, again, the exception man.
+
+So here's a list of the primary failure mode components. And I feel like there's a lot of overlap in those spaces with some of our current. So I think, as we stand up fully, there's a question of how to read pieces together.
+
+And so I think this is kind of where I sort of tried to put pilot scale up launch, potentially could fit. Um soLike when you talked about, you asked about the um the vendor database stuff, I feel like that is something that needs to happen during the pilot as we if it's sort of the work that andrew is right now doing right now that really identifies hey these are the business requirements is to be in place um as we get get those pieces in play. UmI feel like we had the I talked to matt, and he showed me the invoice downloader that he's working on and some of the agents in that piece.
+
+I don't know if we necessarily need right away for it to be fully integrated into our it throws it into a folder, like everybody else is throwing into a folder and then it runs through the bar coder type of situation once that's running effectively. UmBut then that might, as we scale up, we will want to map that space. And we have some other system about if there's a data failure or something that's scheduled in it, you knowit's extraordinary days or whatever it goes into that.
+
+So I think the the pilot piece over the next and I don't know that i'm not sure if 6 months is too long or not enough time. I mean I think it's oh there's so much to be figured out yet. yeahI think from a design perspective, I think 6 months sounds doable, but I don't know.
+
+you knowThere are pieces and parts of those pieces. But those old well you know as we start to be able to pilot some of those pieces, we'll have many pieces. And hopefully we would um be in a position to understand what our staffing needs would be.
+
+And so I think those are just sort of my stab in the dark as far as where it would be from a technology perspective. So in that line, we've got the ai pilot which has started, but I think really understanding what that needs to be and understanding that integration than the vcm and the vendor management database where we need elements from that perspective. umAnd then I think we would need to have all of that potentially there and then integrating those data points with the scheduler, umand then integrating the downloader to to our standard processes, and then getting that into the um the uh you know the workflow cue cues for credentials and for exceptions.
+
+um andThere might be some quick wins that we have during that scale up phase where we can do like simple automation agent pieces that we could add to our existing vendor services components. umOne thing that I when I was looking looking at a map that just could be a really strong one literally, if there's a button, send missing bill for an account, and you just say log in, and it just literally goes out to the web and pulls it up and logs in automatically. You don't have to do any cutting basing or anything.
+
+But that's a huge efficiency, I think, ofof that case, even before you start to think about, does it make sense to have it try to go pull the last invoice and show you what that is? Or is it a safe a case where you want to have somebody manually looking at it at that point in time? Or you know going opening up the website and going to the place verifying the account is there and then going to um the place on the website to update the address and stuff like that that's something that can be done automatically automatically.
+
+umThat could help fax often and early in their process, stuff like that like I think those sub elements of what's required just being able to pull on those. And at the moment, he was talking from a pricing perspective that in most cases, the work that he's doing is um and we need to be connected to him um to ui some sort, which I think is got some work with, umjust to be able to figure out how that those those interaction pieces are. But I think we're paying, we're paying people $20 an hour, some to look at something that it seems like there could be some value in that at that time.
+
+It makes, umbut I think mainly the key pieces will be in place during get in place during the scale up. And then we can continue to refine what kind of vendor intelligence do we need after that. But really have that transition process for arcadia in place and ramp of staff in form.
+
+So it's not, it's not as detailed as, I guess, what questions do you come here? This is a very very high level. We talked at great detail and several points. So I really press ahead on this. I'm wondering if we want to make a repurchase of the strategic initiatives meeting for this month.
+
+I just talked about abr yes because I have not called melissa in as far as this as well. So i'm a little hesitant in saying bs in here, just because I don't know where that's going to fall. To me, it's going to fall within this arcadia versus vendor services.
+
+Right? I think part of that is the whether it's in this current position or not, the current structure or not, this sort of like when we had in the current arcadia process, a failure to get bill retrieval, escalation to to missing bill. umBut I think that's too late in what we're trying to accomplish.
+
+So you talked about, we're learning the team that is being built, too. And maybe it's very purpose in people from other areas to do that work. yeahYeah? Because I mean arcadia has that intermediate., right?
+
+And there's some activity. It doesn't sound like, I guess it's just a question around that. So if we have a timeline that the scheduler goes out, we say 80% of all bills are retrieved within 5 days and so that predictive 5 days for those things that don't happen.
+
+What happens after after day five on top that that would air out then. And this team would then go after finding out what was the error, andwhat to do to fix it, because they have to be like, right? And we should know based off of the agents, potentially where the failure lies because of the way that he's separating things out.
+
+Right? But then separating some of the egos. yeahSo I guess what I was more proposing was we planted to have an internal discussion117 and then for the strategic conditions meeting present this to jim and martin, I guess, because I think we had one or his second hand on it from utilities perspective on that.
+
+Talk to jim at work reasons. YeahAnd dean has been part of these conversations so that probably made me sort of stuff. We have a conversation for them. Do I know it yeah yeah yeah pieces that she kind of?
+
+So for all the designs that we think we know what we want to do for those processes. yes yes yeahWe talked about it. Yeah soIt's probably worth when that maybe, yeah. May I focus more? Probably maybe keep everything higher level.
+
+Chill down, chills out on the pilot, no more better than we do with some of this other stuff. yeahA scale up plan may or may not change as we go through the funny. These are decisions that will. yeah yeah yeahSo maybe just start with a bigger picture like this.
+
+Would you share with me? And then we have a couple of extra slides to go through the pilot ok and if we know how many bp os we need, like resources we need, aabr management team. I want that. that that wasThat's a big thing.
+
+And I think like some assumptions to get. yeahAnd I think part of it is a question of,  and I think that's part of the, i'm not sure about from where that scale up is is if we're not going to try to engage with the current arcadia account list, umthen where is where do those accounts come from? Right now?
+
+And how many how many of them are since we're not having like a really? When i'm super active? UmIt's like implementation. It's like from new accounts, right? yeah wellI mean and we can take some arcadia, too.
+
+We can take some arcadia. wellWe could, but I mean I would love to see who we what we have in the museum. It's not arcadia, and could be the most immediate deputy, maybe pursue. andThat's not the left person as well.
+
+yeahSo I think we just need to just take a look at what we have that we're throwing. Okay? And you see what what's left. Let's see it, depending. But then also, I mean if we don't have credentials in the vcm it doesn't mean that we should.
+
+And we're gonna have to figure out how to go after things that we don't have in the vcm so there's value to work from scratch. And so the pilot team is doing this. Yeah, I mean I still believe there's a decent number of emails somewhere.
+
+YepThat we haven't added to the ecm it seems like there are three different buckets, existing clock, existing credentials that aren't with arcadia. UmAnd then we have things that are coming in from. And then there are potentially existing clients or theirs.
+
+Bc ms. There should exist. Well. Or maybe it's maybe it's vendors that we know. We don't know where it can get or something. Volume well still trying to take advantage of the arcadia. soI guess in that that's like one of the within the pilot, one of the things I was sort of ten part of it.
+
+do weDo we feel like that? While we currently get downloaded? We should probably just be upload and bar coder or like, how is that integration? yeah that's what happens todayThat's what happens today.
+
+Yeah, we don't touch it at all. I just wasn't sure if there was something more significant. It should be happening. I mean we can asterisk that for d but from a pilot perspective, that's sort of whatever matt matt's building would go out to this list to pull them in.
+
+Yeah, i'm not quite sure exactly all the details of what matt's building, but today urgent pulls down those pdfs and they go in through the out of bar coder. okayOkay? so umCome back to the people's side of the things I think for the management team.
+
+Since it's a pilot, right? I don't think we probably need to do what we did with the tiger team where oh yeah it's repurchasing. yeahNo, but I think we can sounds like you're going to have a new job, right?
+
+Because we don't know, like that's what I meant by your purpose. yeah yeahYou said it faster than I did. Tiger team, really, this is a temporary thing. 3 years later, permanent, yeahassume we were at the end of the day, takes shape.
+
+We think it could take shape, or we'd have like a supervisor over credentials or something. soThen do we know who that supervisor would be? Because they assume we would probably want to slot them into this as we will.
+
+I don't have it today. Okay? Then from this resource planning perspective, we'll have to account for that. ohAbsolutely. It's in the to do is that's why I said this inside level one. yeah yeahWe got think it through.
+
+Next, you got a level of course boarding, quality and timing, and as a laser are going to be built in, and the system itself has to be inclusive. soIf we have our meeting like two more weeks. So on the 19th, we've got two weeks to be filling weekend, stack hands internally, and then be in a position to pitch this to martin and jim.
+
+So we think instead of trying to tap up so we would do this instead of that. umDo you think? Wait, I mean that andrew is a here we are talking about listening. yeahIt just seems like we might be. Yeah.
+
+And I didn't see anything slated to talk to him. yeahI don't think we scheduled anything. I'm sorry. It's just my turn to that strategic. yeahI can send out a nope, just saying why not purpose of confirming that myanmar and jim can be in attendance of whoever else.
+
+Christian. Mike want to join, sure, but we're gonna be just talking about abr stuff. So that gives us like next week, the getting into it. All of a sudden, whoever else we need to talk to. yeahI'm bored and add some more detail, put it from jim and martin in 2 weeks.
+
+So I think that thing i'm saying is concerned about, but at least I guess part of it is really the question about there's a lot of work that's been done for the vcm vm. andI know a lot of that's been an architectural standpoint, but I don't know one thing. What's a delivery timeline that's one of her to do is to figure out, because I think we are pretty close to what evaluating what we at least we have a list of the things we need.
+
+Now. It's sort of been a question of what do we want to do from a long term vendor intelligence perspective, because there's a lot of opportunity to pull some of that information while we're doing other things yeah until it is. Someone might turn into need later as we attack other things.
+
+I mean and ii guess in that context, i'm concerned about even it was small that we need for this getting there. Like, what ishow does that work with what they're trying to deliver? Because it's been really slow to move.
+
+SoCan help prioritize when it's be delivered. Yeah. soI think if we get dates or attempt to get dates on it, we can put it in front of jim and more than and hopefully they're in 25. yeahAs we got a challenge, wellit better be anthony.
+
+yeahBut still, I mean we can say we need to push on those because they're going to be gaining factors. andI guess did you did we from a timing perspective, the workflow queues that are necessary for this, I mean I put them in sort of the scale up that they with the idea that they would be delivered by the end of the year. Does that seem, though, when you say workflow queues, i'm not picking up those in work flows, workflow, not in yeahnot in workflow.
+
+For specifically for yeah for what we specifically are working. That is sort of like um status on what what's being scheduled, perception of activity that needs to happen pieces that we need. And potentially that the not necessarily like a client portal, but that activity that would be response to their submissions.
+
+That's when I say the portal. YeahAnd then I envision that portal creates a zen desk ticket, so then we can do that work and monitor it, but not necessarily something we would need requirements for, but not having having it up and going during the pilot. andWe need something similar up and going during the pilot.
+
+And otherwise I don't know how we'd have this ability. Right? I mean somewhere where all the information comes in, it doesn't need to be the francis mansey and result. We need to figure out that mdp is which I think we have in our details.
+
+so we need toI don't think I have it. Here is initial. You seem like a centralized place to go find at the info, right? Some of that info needs to be pushed. andIt may be that it gets pushed to send us, right?
+
+It creates a we have a workgroup that's prudential management and take a guess question or from there. uhSorry. They're multiple. I mean I mean there could be a provincial answer I want. Is there a particular example?
+
+yeahOr the exception, right? yeah yeahFalls on acuity? That's where I was thinking, send us to play a role. And ok so trying to minimize the number of places that people have to go. yeahLike for this, I have to go here for this.
+
+I have to go here. 1930 is a scheduling component. It's not a window. Zen desk to me is just, thei'm sorry, I mean it was like that was aggressive. It was more of a that's where we need to take action.
+
+andSomething is gonna right exceptions follow there. So it becomes so initial, but in enrollment requests, and that would also fit into that. I don't think it would be the credential. Here is today and send us.
+
+We have built enrollment request. You see, request all of that in arcadia. soWe can see what we're getting, mostly, okbecause then that would be. So like the final step of that credential piece is clarification of all this would be scheduled for added to the scheduler.
+
+And then it would whatever that looks like. And I know dean's got some ideas, too. you knowWhat else? I guess what what do we need? I guess we need we need to stack hands on what we need to look. And I think neither me deliver high level and then blow off the pilot pieces in more detail.
+
+What's that summarized? yeahWe can open up with this drill into the violence, so yeahmore action items behind it instead. yeahYeah. Dates mhm mhm people
+
+Obviously, with technology this week. Yeah, I think tomorrow more meat that would be put on the button for that. So if I could go on about more constructive dialogue, and I make it know what we need to ask martin for it, I mean the people side were you know as we staff that up, that's just gonna be a function of adding bodies, which goes counter to you know what we've been focused on in terms of trying to reduce effort.
+
+andOurs. In the process, I mean it should be somewhat within our control. And then I think you know that gym conversations were around the technology, right? soI think we just gotta figure out what our assets are at the end of the day.
+
+Do we have a project manager for this? Yes. right so whatWhat are those things that we think we we need? Make this list make sense? soOur goal is hard for me to re purpose existing. During the pilot phase, we're not going to be hiring, possibly want to see if the pilot goes well, hopefully it brings up the people.
+
+Yeah. so you knowIt's like maybe we have to do some stuff. So you know might be a similar situation where we have a next time will tell, I guess, enjoy yourself. Melissa, later next week you can really looks like that.
+
+yeahPretty come on come on. Thank you. Thick side and we made any waste meetings, proud, some giggle. So is there like just looking at the technology list? I think. Understand like drilling down into each one of those pieces?
+
+Is there any major technology piece for the pilot that's missing? soSort of drilling down on what we need from the download download pilot which includes like the scheduler, pushing it somewhere. There's not really anywhere we're using existing process.
+
+So that's not really like a it's not a technology push for january. Right now, what we're using, we need to figure out how to download, because right now, it's being done through arcadia. So we just need to know, we yeahwe can talk I mean the with what math building.
+
+he's allHe's got somebody going out, various agents that are going out and stuff. At some point, they get a download, they get a confinement, he's got to put the file somewhere, existing place on our systems for it. That's kind of where it's gonna go.
+
+So there's not really a additional step beyond. ohI think there will be excitement. Right? We don't want them to blend in with every other one, okcreate a new market. yeahOk? Only not 86, not elf. And ok no, that'sthat's fair, pete.
+
+I know. And they have requirements for the vcm and the the the vm and then the initial work, queuing system, whatever that represents other other big technology pieces that you think are part of the pilot classified being. YeahI mean I think that's what we're going to be blowing out that go back to our notes, but I mean what about like a credential?
+
+Ui you know propose, enter it, upload it, think about it. Some of that could be populated, pulling. Because I mean in many ways, if it'sa new if it's a new client, as final reference, which is, we believe, is the you know a complete list of all the sites accounts for that client.
+
+And then you get the credential list from the same client. It's almost like we gotta work. you knowIt seems like we would want to start with the cross reference and then look at the credentials and try the map, you knowthe cross reference bio.
+
+andThey're like the bender, like all that stuff should be like the language we speak. Then we just need to connect the dots between the cross file reference to the credentials list of credentials that whoever provided for that client. soIt's like you know pulling it over.
+
+But I think the other thing, too, as we're doing the implementation, is if there's accounts on that credential list that are that cross final reference less, do we somehow flag that for saying this could be yeah that's part of the process of internet? soI think that's always been one of my concerns in that. When we get credentials, it's kind of a second account matching process.
+
+YeahI mean I think we have to start with a crossword. What's this single source of truth and you know certain population? If we find something, maybe that's a separate exception. On the implementation side, I don't know, but I think when I try to resolve it within credential side, this is sort of theirs accounts missing.
+
+So if you go to a login and there are things that are supposed to, there are something not. There's orphan which are so on that maybe you just put down the potential like account. Now i'm fine. I don't know what that would be, because then you can have an account with no credential.
+
+So think of both ways, I guess, because then potentially, I think that the way she's having them work, contractors are currently working at things. They do find an account on the list, but it isn't it's it's on the site reference list. And we don't have for that vendor at a login and then um or trying to enroll.
+
+Um and thenBut then there's another flag if they have something account that's on client's list, that's not on ours that would be initiated. An account ads, classify all the rules yeah and then be able to report on it. Yeah, I think it's just a couple of different things that we're trying to solve.
+
+If there's an extra account on the credential list that's on the crossfire file, prosperous site, cross reference file, then I mean I think we want to know that, but I want to have the credential team trying to solve solve that. I feel like their job is the account is now get a credential mhm rather than trying to identify the right account for by giving credential. um um yeahI ran into that man in australia, the same group, maybe that goes, I don't know.
+
+You show these supporters on there. Yeah. I think it must be on a bunch of posters. I was going through I was just going through that problem about that sort of you know activity cast, not activity trying to understand that.
+
+I think the difference you might overcome give too much focus desired outcome for those that we can't get the desired outcome. Why group those and figure out what we need to do differently? Is there anything that would be helpful for me between now and the next time we detect a lot of notes and put one?
+
+Not more just outline what we stated so far that what we need to build. And I think we can then categorize not necessarily legitimately categorize what we could prioritize them as far as like non negotiable violet. And a nice day.
+
+How soon company? So we'd, I think we're good. Will you sit up with discussions? Do you want me to schedule the conversations? yeahSure. UmDo you want dean in those? Or just me, the first one would have you me, andrew melissa, just because she's got all the details on the vm and the vcm as well.
+
+okJust leave. And then the next one you can follow in being
+
+so i'll just pick his brain open to you, okay? That is he promised me he's gonna solve all my email below is tomorrow. He said it verbally as he had that ring. He was absolutely not. yeahYeah, I think so.
+
+YeahOkay. Allegedly and he didn't say allegedly, he said all. It was a sarcastic way. No, it was notit was like and I looked at it. I'm going to fix all of your animals tomorrow. YeahAnd then tomorrow I will fix all your problems.
+
+And when I yesterday when he was talking to me. So are you saying this? Just because you caused a lot of problems this week and last week? It's like, no, i've got some solutions, because send us to send me there are three options for solutions in there.
+
+Solutions. They were break out the groups okay well that doesn't help, because I still cannot see the address it was sent to. And I can't preview the pdf then the second option was by this additional you know add on.
+
+So then you can see where it's coming from. butI still can't preview it. andThe third option was remove it out of the zen desk. I've already done the option three. They might go with it. ohDid they? Okay?
+
+I mean but did she showed me the document? I mean it wasn't like. you knowHere's your three choices because we already go we already pulled in that office. I mean at that point like it's mute. So then it was like, yeahif I heard solutions, I would think like, how do we put it back there?
+
+Is like we just presented three options to solve the mail room problems to the stereo. And i'm like, wait, what I was, like you did what? andShe's like, let me send the document and pretty sure the first section was what you had sent me.
+
+So i'm like okay so this isn't the same thing. the umThe other thing that I think we're going to figure out is like how many seeds. So they think we have crazy number like 400 or something. And like more than we have people you know in utility.
+
+I don't think we have 400. I thought we knew that like 100 or something. I don't know. So I said that I asked me, I don't just something the same time I was. Like, what was it emails? She's like, now it's people, i'm like, I don't think i've ever heard.
+
+He likes me. I think it was like 280 or something. I'm like we have 300 play50 people. I'm like and majority of the people are dead entry. So like how right which they were never on the list to be done with just as supervisors and potentially released, we have not added released yet.
+
+So i'm like something. yeah huhShe's yeah um so anyway, more to come on that oh that's good. Is that i'm just looking at the calendar. Do we want to re purpose the the strategic initiative on wednesday?
+
+George's discussion is gonna be planning. Mention this, meaning that's re purpose to talk about apr. So I guess it goes to me and that we re purpose that meaning. So every purpose, I mean I think it's in line, it is in a in a sense, huge in it, more urgent than that, just sort of.
+
+So that gets everybody in the same. yesPlease. I think that. No, it's not well that first the first meeting is not. When is the first meeting? What's the date? yeahIt's wednesday at 3:00. So then you'd have to find a date after that dean is available, right?
+
+yeah YeahYou have to be freezing because i'm not cold. I'm burning calorie. It's my new approach to stay healthy, be hungry, you gotta be constantly hungry. And then I read somewhere like you shouldn't eat until you feel full because then you're already overweight.
+
+It's like you want to eat to like 80%. Cause I just like to lay on your the the types are thinking of that. And then i'm like if it's cold, then my body is like burning our calories safer. SoThat's right.
+
+I tell myself, okay wellii see that. So once I see my doctor for my physical, be like, what exercise have you done? Let me tell you. I work out every single solitary, I crank down the air. I am freezing.
+
+My body is working hard to stay warm. I don't then don't look at me with that. Look, whenever I tried to sell my mic. I take the steps yeah to the second. yeahThat's not what I mean. That's the same thing you know like I park further away, but I don't I park further away in the parking lot.
+
+So yeah that's not what i'm talking about until they were very far away from my office at work. When I work from home, I go downstairs to the bathroom versus the one, right? I think it actually we'll see it cold.
+
+It may be over water this time. At some point they have to as he rolls his eyes. andI'm like okay he only had 15 minutes with me anyway. You really don't want to hear this bsoi laughed a lot, I heard laughing, send your life.
+
+I don't need to worry, wellthen i'm gonna forever. So I tell my kids that way i'm good. Like you're going on the laps at your jokes. I'm like live through that need to start. We have a family chat of dad jokes and my daughter have exact same humor.
+
+We can so wednesday, just like I look at it, i'm like so wednesday, internally and then friday friday with friday, within return. Yeah, he's like i'm not laughing. I'm scheduling. I'm working finish what i'm looking at before before.
+
+I have to try put you guys down again. Time is up to date. It's just very, very to figure out there's something going on with my teams working it. Now it's not working. I think I kind of schedule a meeting on my helmet, because it cooled up like the meeting.
+
+If I thought that I was like trying to end the team's data, I just was like that. To me yesterday so I gave up and I went into teams and scheduled it. Um soI was going to walk away, give it some kind of movies.
+
+andThere's this update that I keep putting off so at some point. This is going to explode at some point i'm just going to say you're done postponing my laptop didn't reboot itself uh overnight on sunday. Normally.
+
+I was like, what do you want to do that every sunday mine? Usually does. I do it every friday night. When i'm sort of like i'm done for the week, I never turn my computer on. Really? Unless i'm forced to or like I guess I couldn't say that yeah so like, yeah.
+
+But like if i'm flying on a plane or something yeah yeah like going on a you know12 hour car ride or something, I won't turn it on. butFor the most part, I think if it's just here at home, it's usually on because I just haven't plugged in and stuff up on it. Abbott ruined me.
+
+Every friday night must, am I still here? Remove. That's why it's doing it. See, this thing was happening was taking to do it initial letter about and associate like we had some of the meeting and we have to click on it and that waits and suddenly it stopped doing that.
+
+Said it turned turned the team's add on off because it was slowing the system. Gwen is having trouble yesterday. She could not even get her mic to work or her headset to work. And everything was really slow on her computer.
+
+And I said, gwen, this is the most productive conversation i've had with you. It's all me saying, when will you do this? And she's just having, yes. yesYes, how about this one? yeahI think it is this morning.
+
+She's like, ohi've got my boys back. I don't know what it was. All right, anything else? I can help you. Sorry. .
+
