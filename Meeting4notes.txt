@@ -1,0 +1,146 @@
+Let me tell ABR like I have no idea what this.
+Pickett, Preston 2 minutes 18 seconds
+He's not here. Oh, OK. OK, cool.
+Pickett, Preston 2 minutes 26 seconds
+Yeah, this was part of.
+Pickett, Preston 2 minutes 30 seconds
+We're aligning and we're meeting with Dean on Friday and then there's a report out to Martin next week. And so 'cause you guys met while I was out, right?
+Pickett, Preston 2 minutes 40 seconds
+So when we kind of went over is I had build out sort of a a high level.
+Pickett, Preston 2 minutes 45 seconds
+Ish. Kind of a thing.
+Pickett, Preston 44 minutes 31 seconds
+I mean, there's just like a lot to it that we'd really have to spec out, but I think there's a huge opportunity for it to do a lot of the stuff that you're doing manually doing that automated, but like an on ad hoc needs basis well and the.
+Pickett, Preston 44 minutes 47 seconds
+Thing we the other thing we have to factor into whatever we're doing here is.
+Pickett, Preston 44 minutes 52 seconds
+There's.
+Pickett, Preston 44 minutes 52 seconds
+Pass backs right through.
+Pickett, Preston 44 minutes 54 seconds
+They send that back.
+Pickett, Preston 44 minutes 55 seconds
+Yeah, project that they're done with, but there are.
+Pickett, Preston 44 minutes 58 seconds
+Hey, we couldn't find these, right?
+Pickett, Preston 45 minutes
+Or we could log in, but we might have to do that in this, you know, like you'd have reports, right?
+Pickett, Preston 45 minutes 6 seconds
+You'd have the stuff that could get synced.
+Pickett, Preston 45 minutes 8 seconds
+Yeah, that makes sense to do that.
+Pickett, Preston 45 minutes 10 seconds
+But then you'd have to like we.
+Pickett, Preston 45 minutes 11 seconds
+Yeah, yeah, yeah. You have to almost push tickets or work something back and forth somehow.
+Pickett, Preston 45 minutes 19 seconds
+Oh, client portal.
+Pickett, Preston 45 minutes 22 seconds
+Yeah, which that's a question.
+Pickett, Preston 45 minutes 24 seconds
+I have nobody's brilliant to be able to answer.
+Pickett, Preston 45 minutes 27 seconds
+Is we dealing with credentials?
+Pickett, Preston 45 minutes 29 seconds
+Are we encrypted at a level on expected smart to be able to support a credential? Currently? Probably not.
+Pickett, Preston 45 minutes 38 seconds
+But we have to. Yeah, you need future.
+Pickett, Preston 45 minutes 39 seconds
+I know we do, but nobody goes.
+Pickett, Preston 45 minutes 41 seconds
+They're like they don't want to answer that question.
+Pickett, Preston 45 minutes 44 seconds
+Would we want then an application that supports this during the scale up process?
+Pickett, Preston 45 minutes 50 seconds
+Not during the pilot process, but then we went in the second phase.
+Pickett, Preston 45 minutes 55 seconds
+Well, here this once we've proven out the rest of it. Yeah. Yeah, yeah. I think again the pilot process is is, what, 6 months? We're gonna try to have a pilot process.
+Pickett, Preston 46 minutes 6 seconds
+We'll see when the dates get so at what point? If we have limited IT resources based on those last conversation, where do we need to put those IT resources in order to get a functioning pilot running?
+Pickett, Preston 46 minutes 18 seconds
+I have.
+Pickett, Preston 46 minutes 19 seconds
+It's a manual process. I have a manual process now to do this, so is it better to deploy the IT resources to build the other solution that we need?
+Pickett, Preston 46 minutes 28 seconds
+I don't know.
+Pickett, Preston 46 minutes 29 seconds
+So that's a decision to make whenever I think.
+Pickett, Preston 46 minutes 33 seconds
+That one I think I've had that in the second in a in a scale up phase that we would integrate.
+Pickett, Preston 46 minutes 41 seconds
+The.
+Pickett, Preston 46 minutes 42 seconds
+'Cause, I think that we have to have a download. We have to have an integration to.
+Pickett, Preston 46 minutes 48 seconds
+To build, which isn't really a big thing to build page, we'd have to.
+Pickett, Preston 46 minutes 50 seconds
+They have to throw it into a folder that can go into the.
+Pickett, Preston 46 minutes 54 seconds
+Workflow.
+Pickett, Preston 46 minutes 57 seconds
+Yeah, something like that.
+Pickett, Preston 47 minutes
+But we do need a workflow system during during the pilot to support the exception component pieces. They find accounts during.
+Pickett, Preston 47 minutes 13 seconds
+Take a picture or anything I actually already had a picture as I drew it.
+Pickett, Preston 47 minutes 16 seconds
+I realize I've already drawn that picture.
+Pickett, Preston 47 minutes 17 seconds
+Oh, OK.
+Pickett, Preston 47 minutes 17 seconds
+It's in the power pay find accounts that are not loaded.
+Pickett, Preston 47 minutes 20 seconds
+Yes. And so right now what their direction is best but is to be is to grab the bill.
+Pickett, Preston 47 minutes 27 seconds
+The implementation guys go validate and then we use that as part of gap analysis to get loaded.
+Pickett, Preston 47 minutes 32 seconds
+So it would be nice to be able to.
+Pickett, Preston 47 minutes 35 seconds
+Add add to take that. Now I've got a bill image that I can load from because we've discovered a new account. OK.
+Pickett, Preston 47 minutes 42 seconds
+So I'm just, there's all these little deposits that once I actually it's somewhere in here I had because I had to struggle with this language.
+Pickett, Preston 47 minutes 52 seconds
+But the notion that you would have you would take those three pieces. You have it in a place where they can do their validation.
+Pickett, Preston 47 minutes 59 seconds
+And they're they're doing it manually now.
+Pickett, Preston 48 minutes 1 second
+And you said they're giving you a site, an updated site cross reference file. Yeah. And an updated credential file.
+Pickett, Preston 48 minutes 6 seconds
+And then you're tagging them.
+Pickett, Preston 48 minutes 8 seconds
+And in the sense what you're gonna have.
+Pickett, Preston 48 minutes 11 seconds
+Are.
+Pickett, Preston 48 minutes 13 seconds
+Accounts.
+Pickett, Preston 48 minutes 15 seconds
+Inactive at CAS or active with. I mean this is sort of the the status that you get for every credential is active or inactive at CAS and active or inactive with the vendor.
+Pickett, Preston 48 minutes 26 seconds
+So if you can find it at the vendor that it's active on the vendor, but there's going to be potentially, is it loaded in Cass.
+Pickett, Preston 48 minutes 33 seconds
+Yes or no.
+Pickett, Preston 48 minutes 33 seconds
+Yes, yes.
+Pickett, Preston 48 minutes 34 seconds
+And so from that piece you end up with once you do the logic of what you end up looking at, you end up with two two statuses that you could identify.
+Pickett, Preston 48 minutes 42 seconds
+Those could then be separate work queues that would.
+Pickett, Preston 48 minutes 45 seconds
+That would need.
+Pickett, Preston 48 minutes 45 seconds
+It'll functionally happen in the workflow occurs, and then that'll give you.
+Pickett, Preston 48 minutes 51 seconds
+Do I need to reach out to the client?
+Pickett, Preston 48 minutes 53 seconds
+Because we don't have we, we can't find the account.
+Pickett, Preston 48 minutes 58 seconds
+Or is it something that's been not been added to Cass, so we need to do a vendor what an account ad form or whatever that is to get that added on.
+Pickett, Preston 49 minutes 8 seconds
+Are you in this?
+Pickett, Preston 49 minutes 11 seconds
+Are you envisioning the skating girl like all this, like management?
+Pickett, Preston 49 minutes 17 seconds
+Yep or somewhere.
+Pickett, Preston 49 minutes 22 seconds
+Because it it straddles the Lexington straddles Melissa.
+
